@@ -1,7 +1,6 @@
 const multer = require("multer");
 const path = require("path");
 const crypto = require("crypto");
-const { throws } = require("assert");
 
 module.exports = {
   dest: path.resolve(__dirname, "..", "..", "tmp", "uploads"),
